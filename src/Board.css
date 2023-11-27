@@ -1,0 +1,13 @@
+/* Board.css */
+.board-horizontal {
+    display: flex;
+   /*  flex-direction: row; Esto establece la dirección horizontal */
+     flex-wrap: wrap; /* Esto evita que las cartas se envuelvan a la siguiente línea */
+     justify-content: center;  /* Esto centra las cartas horizontalmente */
+     /* background-color: rgb(0, 144, 136); */
+  }
+  .board-horizontal .image {
+    height: 10px;
+    width: 10px;
+  }
+  

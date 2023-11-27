@@ -14,18 +14,27 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background:linear-gradient(rgb(137, 217, 222), rgb(88, 224, 255));
+  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  text-shadow: 2px 3px 5px #004558;
 }
 
 .App-link {
   color: #61dafb;
+}
+.App-footer {
+  border: 1px solid black;
+  background:linear-gradient(rgb(137, 217, 222), rgb(0, 208, 255));
+  border-radius: 10px;
+  color: white;
+  text-shadow: 2px 3px 5px #004558;
+  font-size: 20px;
 }
 
 @keyframes App-logo-spin {

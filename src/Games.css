@@ -1,0 +1,27 @@
+.game {
+align-items: center;
+text-align: center;
+padding: 0;
+}
+.game h1 {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 247, 255);
+    text-shadow: 2px 3px 6px black;
+    }
+
+    .deck button {
+        font-size: 20px;
+        background-color: rgba(173, 255, 255, 0.71);
+        border-radius: 5px;
+        border: 2px solid rgba(0, 0, 0, 0.53);
+        margin: auto;
+        margin-right: 5px;
+    }
+    .deck button:hover {
+        background-color: rgba(0, 207, 207, 0.71);
+        border-radius: 5px;
+        border: 2px solid black;
+        margin: auto;
+        margin-right: 5px;
+    }
