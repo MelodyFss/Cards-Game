@@ -1,7 +1,8 @@
-
 import React from 'react';
 import './App.css';
+import Card from './Card';
 import Board from './Board';
+
 function App() {
   return (
     <div className="App">

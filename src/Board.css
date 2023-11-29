@@ -5,6 +5,9 @@
      flex-wrap: wrap; /* Esto evita que las cartas se envuelvan a la siguiente línea */
      justify-content: center;  /* Esto centra las cartas horizontalmente */
      /* background-color: rgb(0, 144, 136); */
+     margin: auto;
+     align-items: center;
+     background:radial-gradient(rgb(0, 38, 126),rgb(0, 113, 165));
   }
   .board-horizontal .image {
     height: 10px;

@@ -2,7 +2,7 @@
 .card {
     width: 90px;
     height: 100px;
-    background:linear-gradient(rgb(137, 217, 222), rgb(88, 224, 255));
+    background:linear-gradient(rgb(0, 153, 224),rgb(30, 221, 255),rgb(0, 105, 180));
     margin:3px;
     display: flex;
     align-items: center;

@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background:radial-gradient(rgb(0, 113, 165), rgb(0, 38, 126));
+  
 }
 
 .App-logo {
@@ -14,7 +16,11 @@
 }
 
 .App-header {
-  background:linear-gradient(rgb(137, 217, 222), rgb(88, 224, 255));
+  border: 1px solid black;
+  border-radius: 15px;
+  background-image: url("../src/Img/33925-n-stage-nlement_blank-int.png");
+  background-position: center;
+  /* background-size: cover; */
   /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
@@ -30,11 +36,27 @@
 }
 .App-footer {
   border: 1px solid black;
-  background:linear-gradient(rgb(137, 217, 222), rgb(0, 208, 255));
-  border-radius: 10px;
+  background-image: url("../src/Img/33925-n-stage-nlement_blank-int.png");
+  background-position: center;
+  border-radius: 15px;
   color: white;
   text-shadow: 2px 3px 5px #004558;
   font-size: 20px;
+}
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  overflow: hidden; /* Esto evita la barra de desplazamiento vertical si es necesario */
+}
+
+.App-main {
+  flex: 1;
 }
 
 @keyframes App-logo-spin {
